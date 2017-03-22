@@ -15,7 +15,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
     protected Button btSpeech;
     protected TextView txSpeech;
-    private TextView tx1;
+
     private static final int SPEECH_CODE = 1234;//private=변수 접근 불가능(public=외부 접근 가능), static=메모리를 한번만 할당, final=상수
     //protected=외부접근 가능(상속을 받았을 시), 외부접근 불가능(상속 외)
     protected TextToSpeech tts;
