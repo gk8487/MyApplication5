@@ -24,6 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="result" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="result" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
